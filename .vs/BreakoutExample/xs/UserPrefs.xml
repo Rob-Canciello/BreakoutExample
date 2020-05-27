@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{42D8CCE9-3D6B-941F-0700-3C7E2B3B8504}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/RobAssets/Scripts/GameManager.cs">
+    <Files>
+      <File FileName="Assets/RobAssets/Scripts/PlayerController.cs" Line="17" Column="10" />
+      <File FileName="Assets/RobAssets/Scripts/Bounds.cs" Line="36" Column="1" />
+      <File FileName="Assets/RobAssets/Scripts/Ball.cs" Line="59" Column="29" />
+      <File FileName="Assets/RobAssets/Scripts/Brick.cs" Line="32" Column="14" />
+      <File FileName="Assets/RobAssets/Scripts/GameManager.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="32abbbe3-52d2-4946-b93d-923fb254dccf" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
