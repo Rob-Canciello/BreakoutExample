@@ -21,7 +21,7 @@ public class Brick : MonoBehaviour
         }
     }
 
-    private void OnEnable()
+    public void ResetSprite()
     {
         spriteRenderer.sprite = normal;
     }

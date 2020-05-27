@@ -51,7 +51,7 @@ public class Ball : MonoBehaviour
     void Spawn()
     {
         transform.position = startPos;
-        randomDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-0.5f, -1f));
+        randomDirection = new Vector2(Random.Range(-1f, 1f), Random.Range(-0.1f, -0.7f));
         rb.velocity = randomDirection * moveSpeed;
     }
 

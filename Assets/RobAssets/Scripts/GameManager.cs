@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        UpdateUI();
         gameCanvas.SetActive(false);
         ballRef.enabled = false;
         savedBallCount = ballCount;
@@ -71,6 +72,7 @@ public class GameManager : MonoBehaviour
 
         for (int i = 0; i < bricks.Length; i++)
         {
+            bricks[i].GetComponent<Brick>().ResetSprite();
             bricks[i].SetActive(true);
         }
 
